@@ -1,37 +1,48 @@
 .tudo {
     display: flex;
-	flex-direction: row;
+	  flex-direction: row;
     justify-content: flex-start;
     margin-top: 50px;
-    border-style: solid;
-    border-color:black;
+    min-width: max-content;
+       
+   
   }
   
 .container {
     display: flex;
-	flex-direction: row;
+	  flex-direction: row;
     justify-content:space-around;
     margin-top: 50px;
-    border-style: solid;
-    border-color:black;
+        
+    
   }
 
 .barra_lateral {
     display: flex;
-	flex-direction: column;
+  	flex-direction: column;
     justify-content:space-around;
     margin-top: 50px;
-    border-style: solid;
-    border-color:black;
+     
+   
   }
 
 .conteudo {
     display: flex;
-	flex-direction: column;
-    justify-content:space-around;
+	  flex-direction: column;
+    justify-content:space-evenly;
     margin-top: 50px;
-    border-style: solid;
-    border-color:black;
+     
+    
+  }
+
+  .topo {
+    width: 30%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+     
+        
   }
 
   
@@ -39,8 +50,30 @@
 
   .c1, .c2, .c3, .c4, .c5 {
     width: 100%;
-    border-style: solid;
-    border-color:black;
+    margin-right: 10px;
+    text-align: center;
+  }
+
+
+  .rounded-circle {
+    width: 30%;
+
+    
+  }
+
+
+  .icon {
+    width: 30%;
+
+  }
+
+  .box {
+    width: 100%;
+  }
+
+  .titulo {
+    font-weight: bold;
+    font-size: 24px;
   }
   
   @media (min-width: 600px) {
