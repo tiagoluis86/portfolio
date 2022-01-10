@@ -4,8 +4,8 @@
     justify-content: space-evenly;
     margin-top: 50px;
     min-width: max-content;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
+    
   }
   
 .container {
@@ -13,8 +13,7 @@
     flex-direction: row;
     justify-content:space-around;
     margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
+    
     
   }
 
@@ -32,8 +31,7 @@
     flex-direction: column;
     justify-content:space-evenly;
     margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
+    
     
   }
 
