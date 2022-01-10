@@ -1,16 +1,17 @@
 .tudo {
     display: flex;
-	  flex-direction: row;
-    justify-content: flex-start;
+    flex-direction: row;
+    justify-content: space-evenly;
     margin-top: 50px;
     min-width: max-content;
+
        
    
   }
   
 .container {
     display: flex;
-	  flex-direction: row;
+    flex-direction: row;
     justify-content:space-around;
     margin-top: 50px;
         
@@ -19,7 +20,7 @@
 
 .barra_lateral {
     display: flex;
-  	flex-direction: column;
+    flex-direction: column;
     justify-content:space-around;
     margin-top: 50px;
      
@@ -28,7 +29,7 @@
 
 .conteudo {
     display: flex;
-	  flex-direction: column;
+    flex-direction: column;
     justify-content:space-evenly;
     margin-top: 50px;
      
@@ -47,7 +48,7 @@
 
   .contato {
     display: flex;
-	  flex-direction: row;
+    flex-direction: row;
     justify-content: center;
     text-align: center;
     margin-left: auto;
