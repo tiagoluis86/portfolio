@@ -157,3 +157,19 @@
   }
 
 
+  @media (min-width: 800px) {
+    .topo {
+      width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  @media (min-width: 600px) {
+    .topo{
+      width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
