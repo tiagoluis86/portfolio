@@ -4,9 +4,8 @@
     justify-content: space-evenly;
     margin-top: 50px;
     min-width: max-content;
-
-       
-   
+    margin-left: auto;
+    margin-right: auto;
   }
   
 .container {
@@ -69,7 +68,7 @@
 
 
   .rounded-circle {
-    width: 30%;
+    width: 70%;
 
     
   }
