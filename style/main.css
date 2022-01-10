@@ -13,6 +13,7 @@
     flex-direction: row;
     justify-content:space-around;
     margin-top: 50px;
+
     
     
   }
@@ -22,6 +23,7 @@
     flex-direction: column;
     justify-content:space-around;
     margin-top: 50px;
+    text-align: center;
      
    
   }
@@ -31,7 +33,7 @@
     flex-direction: column;
     justify-content:space-evenly;
     margin-top: 50px;
-    
+    text-align: center;
     
   }
 
