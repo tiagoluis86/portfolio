@@ -2,35 +2,14 @@
 .container {
   display: flex;
   flex-direction: row;
-  justify-content:space-around;
+  justify-content:space-evenly;
   margin-top: 15px;
   border-style:solid;
   border-color: black; 
-  
-}
-
-
-
-.topo {
-  width: 30%;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5px;
-  border-style:solid;
-  border-color: black;   
-      
-}
-
-.rodape {
-  display: flex;
-  flex-direction: row;
-  justify-content:space-around;
-  margin-top: 50px;
-  border-style:solid;
-  border-color: black; 
   
 }
+
 
 
 .contato {
