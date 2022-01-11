@@ -1,96 +1,94 @@
-.tudo {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-top: 50px;
-    min-width: max-content;
-    text-align: center;
-    
-  }
-  
+
 .container {
-    display: flex;
-    flex-direction: row;
-    justify-content:space-around;
-    margin-top: 50px;
-
-    
-    
-  }
-
-.barra_lateral {
-    display: flex;
-    flex-direction: column;
-    justify-content:space-around;
-    margin-top: 50px;
-    text-align: center;
-     
-   
-  }
-
-.conteudo {
-    display: flex;
-    flex-direction: column;
-    justify-content:space-evenly;
-    margin-top: 50px;
-    text-align: center;
-    
-  }
-
-  .topo {
-    width: 30%;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-     
-        
-  }
-
-  .contato {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    
-        
-  }
-
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  margin-top: 15px;
+  border-style:solid;
+  border-color: black; 
   
+}
+
+
+
+.topo {
+  width: 30%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  border-style:solid;
+  border-color: black;   
+      
+}
+
+.rodape {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  margin-top: 50px;
+  border-style:solid;
+  border-color: black; 
   
-
-  .c1, .c2, .c3, .c4, .c5 {
-    width: 100%;
-    margin-right: 10px;
-    text-align: center;
-    justify-content: center;
-  }
+}
 
 
-  .rounded-circle {
-    width: 70%;
+.contato {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  border-style:solid;
+  border-color: black; 
+      
+}
 
-    
-  }
 
 
-  .icon {
-    width: 40%;
-    margin-left: 20px;
-    margin-right: 20px;
 
-  }
+.c1, .c2, .c3, .c4, .c5 {
+  width: 100%;
+  margin-right: 10px;
+  text-align: center;
+  justify-content: center;
+  border-style:solid;
+  border-color: black; 
 
-  .box {
-    width: 100%;
-  }
+}
 
-  .titulo {
-    font-weight: bold;
-    font-size: 24px;
-  }
+
+.rounded-circle {
+  width: 70%;
+  border-style:solid;
+  border-color: black; 
   
-  
+}
+
+
+.icon {
+  width: 30%;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-style:solid;
+  border-color: black; 
+
+}
+
+.box {
+  width: 100%;
+  border-style:solid;
+  border-color: black; 
+  margin-top: 30px;
+}
+
+.titulo {
+  font-weight: bold;
+  font-size: 24px;
+  border-style:solid;
+  border-color: black; 
+  margin-top: 30px;
+}
+
